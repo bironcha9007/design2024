@@ -317,6 +317,30 @@
 }
 
 
+/* Estilo para el scrollbar en navegadores Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #000000; /* Fondo negro de la barra */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Fondo negro de la pista */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff5e00; /* Verde manzana para el pulgar */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d07d00; /* Verde manzana oscuro para hover */
+}
+
+/* Para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ff8000 #000000;
+}
 
 body {
   background-color: #000000;
